@@ -30,13 +30,8 @@ export default function App() {
 
   return (
     <div className="app-friends container">
-      {/* 👉 6- Render the Search component */}
       <Search setSearch={setSearch} />
       <FriendsList filteredArr={filteredArr()} changeStatus={changeStatus} />
-      {/* STRETCH - Changes to the input should update the search term */}
-
-      {/* 👉 7- Render the FriendsList component */}
-      {/* What prop/props does FriendsList need? */}
     </div>
   );
 }
